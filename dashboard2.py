@@ -96,7 +96,7 @@ ax.grid(True)
 st.pyplot(fig)
 
 # Penjelasan tambahan
-with st.expander("Penjelasan Grafik")
+with st.expander("Penjelasan Grafik"):
     st.write('Grafik tersebut menunjukkan perkembangan konsentrasi NO2 rata-rata di Stasiun Aotizhongxin selama periode tahun 2013 hingga 2017.'
 'Penurunan drastis di 2016 -> konsentrasi NO2 mengalami penurunan tajam sekitar tahun 2015 hingga 2016.'
 'Penurunan ini mungkin disebabkan oleh intervensi lingkungan tertentu, seperti kebijakan pengurangan emisi atau perubahan aktivitas industri di wilayah tersebut.'
