@@ -138,6 +138,8 @@ ax.grid(axis='y', linestyle='--', alpha=0.6)
 
 st.pyplot(fig)
 
-st.write('Konsentrasi NO2 terendah ada pada tahun 2017 yaitu sebesar 20.36 µg/m³')
-st.write('Konsentrasi NO2 tertinggi ada pada tahun 2017 yaitu sebesar 130.16 µg/m³')
+with st.expander("Penjelasan Grafik"):
+    st.write(
+        'Konsentrasi NO2 terendah ada pada tahun 2017 yaitu sebesar 20.36 µg/m³. '
+        'Konsentrasi NO2 tertinggi ada pada tahun 2017 yaitu sebesar 130.16 µg/m³.')
 
