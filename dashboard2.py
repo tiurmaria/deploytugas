@@ -51,9 +51,8 @@ st.pyplot(fig)
 
 # Penjelasan tambahan
 with st.expander("Penjelasan Grafik"):
-    st.write(
-        'Grafik di atas menunjukkan total konsentrasi PM2.5 di dua stasiun, yaitu Aotizhongxin dan Changping, selama kuartal ke-4 tahun 2016 (Q4 2016). '
-        'Dapat dilihat bahwa stasiun Aotizhongxin memiliki total konsentrasi PM2.5 yang lebih tinggi (229486) dibandingkan dengan Changping (198509).')
+    st.write('• Grafik di atas menunjukkan total konsentrasi PM2.5 di dua stasiun, yaitu Aotizhongxin dan Changping, selama kuartal ke-4 tahun 2016 (Q4 2016).')
+    st.write('• Dapat dilihat bahwa stasiun Aotizhongxin memiliki total konsentrasi PM2.5 yang lebih tinggi (229486) dibandingkan dengan Changping (198509).')
 
 
 # ==================== PERTANYAAN 2 ====================
@@ -97,12 +96,12 @@ st.pyplot(fig)
 
 # Penjelasan tambahan
 with st.expander("Penjelasan Grafik"):
-    st.write('Grafik tersebut menunjukkan perkembangan konsentrasi NO2 rata-rata di Stasiun Aotizhongxin selama periode tahun 2013 hingga 2017.')
-    st.write('Penurunan drastis di 2016 -> konsentrasi NO2 mengalami penurunan tajam sekitar tahun 2015 hingga 2016.')
-    st.write('Penurunan ini mungkin disebabkan oleh intervensi lingkungan tertentu, seperti kebijakan pengurangan emisi atau perubahan aktivitas industri di wilayah tersebut.')
-    st.write('Peningkatan kembali setelah 2016 -> setelah penurunan drastis pada 2016, konsentrasi NO2 meningkat tajam pada 2017.')
-    st.write('Hal ini mungkin menunjukkan pemulihan aktivitas industri atau pengurangan efektivitas kebijakan lingkungan sebelumnya.')
-    st.write('Stabilitas sebelum 2015 -> dari tahun 2013 hingga 2015, konsentrasi NO2 cenderung stabil dengan sedikit fluktuasi.')
+    st.write('• Grafik tersebut menunjukkan perkembangan konsentrasi NO2 rata-rata di Stasiun Aotizhongxin selama periode tahun 2013 hingga 2017.')
+    st.write('• Penurunan drastis di 2016 -> konsentrasi NO2 mengalami penurunan tajam sekitar tahun 2015 hingga 2016.')
+    st.write('• Penurunan ini mungkin disebabkan oleh intervensi lingkungan tertentu, seperti kebijakan pengurangan emisi atau perubahan aktivitas industri di wilayah tersebut.')
+    st.write('• Peningkatan kembali setelah 2016 -> setelah penurunan drastis pada 2016, konsentrasi NO2 meningkat tajam pada 2017.')
+    st.write('• Hal ini mungkin menunjukkan pemulihan aktivitas industri atau pengurangan efektivitas kebijakan lingkungan sebelumnya.')
+    st.write('• Stabilitas sebelum 2015 -> dari tahun 2013 hingga 2015, konsentrasi NO2 cenderung stabil dengan sedikit fluktuasi.')
 
 # ==================== ANALISIS LANJUTAN ====================
 
@@ -145,7 +144,7 @@ ax.grid(axis='y', linestyle='--', alpha=0.6)
 
 st.pyplot(fig)
 
+# Penjelasan tambahan
 with st.expander("Penjelasan Grafik"):
-    st.write(
-        'Konsentrasi NO2 terendah ada pada tahun 2017 yaitu sebesar 20.36 µg/m³. '
-        'Sedangkan, konsentrasi NO2 tertinggi ada pada tahun 2017 yaitu sebesar 130.16 µg/m³.')
+    st.write('• Konsentrasi NO2 terendah ada pada tahun 2017 yaitu sebesar 20.36 µg/m³.')
+    st.write('• Sedangkan, konsentrasi NO2 tertinggi ada pada tahun 2017 yaitu sebesar 130.16 µg/m³.')
