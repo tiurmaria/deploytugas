@@ -52,7 +52,7 @@ st.pyplot(fig)
 with st.expander("Penjelasan Grafik"):
     st.write(
         'Grafik di atas menunjukkan total konsentrasi PM2.5 di dua stasiun, yaitu Aotizhongxin dan Changping, selama kuartal ke-4 tahun 2016 (Q4 2016). '
-        'Stasiun Aotizhongxin memiliki total konsentrasi PM2.5 yang lebih tinggi (229486) dibandingkan dengan Changping (198509).')
+        'Dapat dilihat bahwa stasiun Aotizhongxin memiliki total konsentrasi PM2.5 yang lebih tinggi (229486) dibandingkan dengan Changping (198509).')
 
 
 # ==================== PERTANYAAN 2 ====================
@@ -141,5 +141,4 @@ st.pyplot(fig)
 with st.expander("Penjelasan Grafik"):
     st.write(
         'Konsentrasi NO2 terendah ada pada tahun 2017 yaitu sebesar 20.36 µg/m³. '
-        'Konsentrasi NO2 tertinggi ada pada tahun 2017 yaitu sebesar 130.16 µg/m³.')
-
+        'Sedangkan, konsentrasi NO2 tertinggi ada pada tahun 2017 yaitu sebesar 130.16 µg/m³.')
