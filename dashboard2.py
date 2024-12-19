@@ -10,7 +10,7 @@ data_aot = pd.read_csv('q3.csv')
 
 # Header Section
 st.title("Analisis Kualitas Udara")
-st.write("Selamat datang! Yuk, temukan wawasan menarik dari data konsentrasi PM2.5 dan NO2 di stasiun Aotizhongxin dan Changping!")
+st.write("Selamat datang! Yuk, temukan wawasan menarik dari data konsentrasi particulate matter PM2.5 dan NO2 (Nitrogen Dioxide) di stasiun Aotizhongxin dan Changping!")
 
 # Sidebar Section
 st.sidebar.image("dicoding gambar.png", use_column_width=True)
