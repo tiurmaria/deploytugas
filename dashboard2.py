@@ -10,14 +10,14 @@ data_aot = pd.read_csv('q3.csv')
 
 # Header Section
 st.title("Analisis Kualitas Udara")
-st.write("Selamat datang! Temukan wawasan menarik dari data konsentrasi PM2.5 dan NO2 di berbagai stasiun.")
+st.write("Selamat datang! Temukan wawasan menarik dari data konsentrasi PM2.5 dan NO2 di stasiun Aotizhongxin dan Changping.")
 
 # Sidebar Section
 st.sidebar.image("dicoding gambar.png", use_column_width=True)
 
 # ==================== PERTANYAAN 1 ====================
 
-st.header("Total Konsentrasi PM2.5 di Kuartal 4 Tahun 2016")
+st.header("1. Total Konsentrasi PM2.5 di Kuartal 4 Tahun 2016")
 
 # Filter data untuk Kuartal 4 2016
 df_q4_2016 = df_aot_chang[
@@ -57,7 +57,7 @@ with st.expander("Penjelasan Grafik"):
 
 # ==================== PERTANYAAN 2 ====================
 
-st.header("Perkembangan Konsentrasi NO2 di Stasiun Aotizhongxin")
+st.header("2. Perkembangan Konsentrasi NO2 di Stasiun Aotizhongxin")
 
 # Tambahkan filter berdasarkan tahun
 selected_year = st.sidebar.slider("Pilih Tahun", min_value=int(df_aot_specific['year_aot'].min()), max_value=int(df_aot_specific['year_aot'].max()), value=(int(df_aot_specific['year_aot'].min()), int(df_aot_specific['year_aot'].max())))
@@ -105,7 +105,7 @@ with st.expander("Penjelasan Grafik"):
 
 # ==================== ANALISIS LANJUTAN ====================
 
-st.header("Konsentrasi NO2 Berdasarkan Kategori (2013–2017)")
+st.header("3. Konsentrasi NO2 Berdasarkan Kategori (2013–2017)")
 
 # Kategorisasi konsentrasi NO2
 def categorize_no2(value):
