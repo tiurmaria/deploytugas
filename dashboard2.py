@@ -60,11 +60,11 @@ with st.expander("Penjelasan Grafik"):
 st.header("2. Perkembangan Konsentrasi NO2 di Stasiun Aotizhongxin")
 
 # Tambahkan filter berdasarkan tahun
-selected_year = st.sidebar.slider("Pilih Tahun", min_value=int(df_aot_specific['year_aot'].min()), max_value=int(df_aot_specific['year_aot'].max()), value=(int(df_aot_specific['year_aot'].min()), int(df_aot_specific['year_aot'].max())))
+selected_year = st.sidebar.slider("Pilih tahun yang bikin kamu penasaran:", min_value=int(df_aot_specific['year_aot'].min()), max_value=int(df_aot_specific['year_aot'].max()), value=(int(df_aot_specific['year_aot'].min()), int(df_aot_specific['year_aot'].max())))
 filtered_df_aot_specific = df_aot_specific[(df_aot_specific['year_aot'] >= selected_year[0]) & (df_aot_specific['year_aot'] <= selected_year[1])]
 
 # Tambahkan pilihan kategori konsentrasi NO2
-no2_category = st.sidebar.radio("Pilih Kategori Konsentrasi NO2:", ('Rendah', 'Sedang', 'Tinggi'))
+no2_category = st.sidebar.radio("Pilih kategori konsentrasi NO2 juga ya:", ('Rendah', 'Sedang', 'Tinggi'))
 
 # Filter data berdasarkan kategori NO2
 def filter_no2_category(row):
